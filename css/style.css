@@ -1,0 +1,78 @@
+/* cores */
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+}
+
+/* header */
+
+.a-l {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.a-logo {
+  color: #3a404e;
+  font-size: 1.1rem;
+  font-weight: medium;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  color: var(--text-color);
+}
+
+.btn1 {
+  display: inline-block;
+  color: var(--text-color);
+
+  background: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+}
+.btn2 {
+  color: white;
+  background: var(--main-color);
+  padding: 10px 18px;
+  border-radius: 4px;
+}
+
+/* cabecalho */
+
+.sobrenos {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  line-height: 1.5;
+}
+.cabecalho {
+  gap: 20px;
+  display: grid;
+}
+
+.sobrenos span {
+  display: flex;
+  color: var(--main-color);
+  font-weight: 600;
+  justify-content: center;
+}
+.sobrenos h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: #101828;
+}
+.sobrenos p {
+  max-width: 750px;
+  font-size: 1.25rem;
+  color: var(--text-color);
+}
