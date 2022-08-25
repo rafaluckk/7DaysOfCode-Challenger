@@ -76,3 +76,35 @@
   font-size: 1.25rem;
   color: var(--text-color);
 }
+
+.metricas-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  padding: 0 112px;
+  gap: 32px;
+  line-height: 1.5;
+
+}
+
+
+.metricas h1 {
+  font-size: 3.75rem;
+  color: var(--main-color);
+
+}
+
+.metricas span {
+  display: inline-block;
+  color: #101828;
+  font-weight: medium;
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+
+}
+
+.metricas p {
+  color: var(--text-color);
+  font-size: 1rem;
+
+}
