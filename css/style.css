@@ -9,6 +9,7 @@
 .a-l {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 .a-logo {
   color: #3a404e;
@@ -135,3 +136,45 @@
   justify-content: center;
   width: 100%;
 }
+
+.vaga {
+  max-width: 768px;
+  max-height: 136px;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+
+
+.main-title {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.main-title h1  {
+  color: #101828;
+  font-size: 1.25rem;
+  margin-top: 64px;
+  margin-bottom: 32px;
+
+}
+
+.titulo-vaga {
+  display: flex;
+  margin-bottom: 32px;
+  color: #101828;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.informacoes {
+  display: flex;
+  gap: 20px;
+  color: var(--text-color);
+}
+
+.push {
+  margin-bottom: 32px;
+}
+
