@@ -75,6 +75,7 @@
   max-width: 750px;
   font-size: 1.25rem;
   color: var(--text-color);
+  text-align: center;
 }
 
 .metricas-container {
@@ -107,11 +108,11 @@
 .jobs-sobre {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   flex-direction: column;
   margin-top: 202px;
   row-gap: 24px;
-} 
+}
 
 .jobs-sobre span {
   color: #8e2424;
@@ -129,7 +130,6 @@
   font-size: 1.25rem;
   color: var(--text-color);
   margin-bottom: 64px;
-
 }
 .img-jobs {
   display: flex;
@@ -140,24 +140,21 @@
 .vaga {
   max-width: 768px;
   max-height: 136px;
-  border: 1px solid #EAECF0;
+  border: 1px solid #eaecf0;
   border-radius: 8px;
   padding: 20px 20px;
   margin: 0 auto;
 }
 
-
-
 .main-title {
   max-width: 768px;
   margin: 0 auto;
 }
-.main-title h1  {
+.main-title h1 {
   color: #101828;
   font-size: 1.25rem;
   margin-top: 64px;
   margin-bottom: 32px;
-
 }
 
 .titulo-vaga {
@@ -177,4 +174,48 @@
 .push {
   margin-bottom: 32px;
 }
+
+.colab-section {
+  background: #fdf8f8;
+  max-width: 1216px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.colab {
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 96px;
+  row-gap: 24px;
+}
+.colab span {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.colab h1 {
+  max-width: 1100px;
+  text-align: center;
+  font-size: 2.25rem;
+  color: #101828;
+}
+
+.colab h2 {
+  font-size: 1rem;
+  color: #101828;
+  font-weight: bold;
+}
+
+.colab p {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+
+
 
