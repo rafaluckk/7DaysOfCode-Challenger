@@ -46,7 +46,7 @@
   border-radius: 4px;
 }
 
-/* cabecalho */
+/* sobre nós */
 
 .sobrenos {
   display: flex;
@@ -78,6 +78,8 @@
   text-align: center;
 }
 
+/* metricas */
+
 .metricas-container {
   display: flex;
   justify-content: center;
@@ -104,6 +106,8 @@
   color: var(--text-color);
   font-size: 1rem;
 }
+
+/* vagas-abertas */
 
 .jobs-sobre {
   display: flex;
@@ -136,6 +140,8 @@
   justify-content: center;
   width: 100%;
 }
+
+/* jobs */
 
 .vaga {
   max-width: 768px;
@@ -174,6 +180,8 @@
 .push {
   margin-bottom: 32px;
 }
+
+/* Section-colab */
 
 .colab-section {
   background: #fdf8f8;
@@ -216,6 +224,54 @@
   font-weight: bold;
 }
 
+/* footer */
 
+footer {
+  background-color: #f9fafb;
+  max-width: 100%;
+}
 
+.footer {
+  padding: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 96px;
+  row-gap: 24px;
+}
 
+.footer h1 {
+  color: #101828;
+  font-size: 2.25rem;
+}
+
+.footer span {
+  color: var(--text-color);
+  font-size: 1.25rem;
+}
+
+.footer input {
+  width: 360px;
+  border-radius: 8px;
+  margin-right: 16px;
+  text-align: start;
+  padding: 15px;
+  border: solid 1px #d0d5dd;
+}
+
+.footer input::placeholder {
+  color: #667085;
+}
+
+.cadastro a {
+  padding: 15px 20px;
+  background: var(--main-color);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.footer p {
+  color: #98a2b3;
+  font-size: 1rem;
+}
